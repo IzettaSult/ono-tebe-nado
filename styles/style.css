@@ -50,6 +50,7 @@
   height: 98px;
   flex-wrap: wrap;
   font-size: 18px;
+  font-style: normal;
 }
 
 
@@ -192,7 +193,7 @@
 
 
 .about {
-  padding: 181px 24px 180px 71px;
+  padding: 182px 24px 180px 71px;
   display: flex;
   gap: 75px;
 }
@@ -248,6 +249,9 @@
 
 .footer__icon {
   display: flex;
-  height: 48px;
   gap: 48px;
+}
+
+.icon {
+  height: 48px;
 }

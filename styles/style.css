@@ -139,6 +139,7 @@
   justify-content: space-between;
   list-style: none;
   flex-wrap: wrap;
+  row-gap: 20px;
 }
 
 .card {
@@ -172,15 +173,15 @@
   text-underline-offset: 2.7px;
 }
 
-.lot__first {
+.card__background-left {
   background: url(../images/card-lot-01.jpg) no-repeat center / cover;
 }
 
-.lot__second {
+.card__background-center {
   background: url(../images/card-lot-02.jpg) no-repeat center / cover;
 }
 
-.lot__third {
+.card__background-right {
   background: url(../images/card-lot-03.jpg) no-repeat center / cover;
 }
 
